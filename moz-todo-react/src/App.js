@@ -1,5 +1,6 @@
-import logo from './logo.svg';
-import './App.css';
+
+import './index.css';
+import React from 'react'; 
 
 function App(props) {
   return (
@@ -42,6 +43,7 @@ function App(props) {
       <h2 id="list-heading">
         3 tasks remaining
       </h2>
+      
       <ul
         role="list"
         className="todo-list stack-large stack-exception"
@@ -100,5 +102,4 @@ function App(props) {
   );
 }
 
-
-export default App;
+export default App; 
